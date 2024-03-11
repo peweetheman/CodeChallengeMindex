@@ -2,7 +2,7 @@
 
 ## Updates
 
-Create the tasks as described in the prompt at the bottom of this README. The API endpoints created are documented here. 
+Create the tasks as described in the prompt at the bottom of this README. I created and updated API endpoint documentation here as well. 
 
 ## API Endpoints Documentation
 
