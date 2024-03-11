@@ -11,22 +11,9 @@ namespace CodeChallenge.Config
         private static readonly string DB_NAME = "EmployeeDB";
         public static void UseEmployeeDB(this WebApplicationBuilder builder)
         {
-            var optionsBuilder = new DbContextOptionsBuilder<EmployeeContext>()
-                .UseInMemoryDatabase("EmployeeDB");
-
-            var context = new EmployeeContext(optionsBuilder.Options);
-
-            new EmployeeDataSeeder(context).Seed().Wait();
-
-            builder.Services.AddDbContext<EmployeeContext>(_ =>
+            builder.Services.AddDbContext<EmployeeContext>(options =>
             {
-                var options = new DbContextOptionsBuilder<EmployeeContext>()
-                    .UseInMemoryDatabase("EmployeeDB")
-                    .Options;
-                var context = new EmployeeContext(options);
-                new EmployeeDataSeeder(context).Seed().Wait();
-                return context;
-
+                options.UseInMemoryDatabase(DB_NAME);
             });
         }
     }

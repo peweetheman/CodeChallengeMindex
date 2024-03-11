@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using CodeChallenge.Models;
 using CodeChallenge.Services;
 using Microsoft.Extensions.Logging;
@@ -18,7 +19,7 @@ namespace CodeChallenge.Services
 
         public ReportingStructure Create(string id)
         {
-            var employee = _employeeService.GetById(id);
+            var employee = _employeeService.GetByIdWithDirectReports(id);
             if (employee == null) return null;
 
             // Recursively Calculates Direct Reports Count
