@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I4iJA9l9kgWrfQhydSmypRKbMGvIY/K6qi6lGsi73WP9VUv4WhUjowsOEHst5C1C7bDxRwrP6kH5VV7dfjDRbw==",
+  "dgSpecHash": "NZNS8+rSsWd6XAWPEgqo2Jl2imwxoovCO+ARzdHXE8l2yge9tAY6HK7hXGx+PId1qQhT1GakPIQtk3zrDEKpkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Patrick\\Downloads\\dotnet-code-challenge\\dotnet-code-challenge\\CodeChallenge\\CodeChallenge.csproj",
+  "projectFilePath": "D:\\Coding_projects\\coding\\CodeChallengeMindex\\CodeChallenge\\CodeChallenge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.5\\microsoft.aspnetcore.jsonpatch.6.0.5.nupkg.sha512",
     "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

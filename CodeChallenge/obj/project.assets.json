@@ -703,11 +703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Patrick\\Downloads\\dotnet-code-challenge\\dotnet-code-challenge\\CodeChallenge\\CodeChallenge.csproj",
+      "projectUniqueName": "D:\\Coding_projects\\coding\\CodeChallengeMindex\\CodeChallenge\\CodeChallenge.csproj",
       "projectName": "CodeChallenge",
-      "projectPath": "C:\\Users\\Patrick\\Downloads\\dotnet-code-challenge\\dotnet-code-challenge\\CodeChallenge\\CodeChallenge.csproj",
+      "projectPath": "D:\\Coding_projects\\coding\\CodeChallengeMindex\\CodeChallenge\\CodeChallenge.csproj",
       "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Patrick\\Downloads\\dotnet-code-challenge\\dotnet-code-challenge\\CodeChallenge\\obj\\",
+      "outputPath": "D:\\Coding_projects\\coding\\CodeChallengeMindex\\CodeChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
