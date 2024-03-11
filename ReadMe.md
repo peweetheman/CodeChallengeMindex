@@ -3,7 +3,8 @@
 ## Updates
 
 - Created new classes for the tasks described in the prompt at the bottom of this README. 
-- Created and updated API endpoint documentation below. 
+- Created and updated API endpoint documentation below.
+- Created EmployeeRepository.GetByIdWithDirectReports() and related methods since provided implementation lacked this functionality.
 - Created integration unit tests for the ReportingStructure and Compensation API endpoints.
 
 ## API Endpoints Documentation
