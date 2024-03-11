@@ -2,7 +2,9 @@
 
 ## Updates
 
-Create the tasks as described in the prompt at the bottom of this README. I created and updated API endpoint documentation here as well. 
+- Created new classes for the tasks described in the prompt at the bottom of this README. 
+- Created and updated API endpoint documentation here as well. 
+- Created integration unit tests for the ReportingStructure and Compensation API endpoints.
 
 ## API Endpoints Documentation
 
